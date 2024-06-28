@@ -1,8 +1,8 @@
-import LoginImg from "../../../../public/login1.png"; // Adjust path as necessary
-import Image from "next/image"; // Assuming you're using Next.js Image component
-import { FaFacebook } from "react-icons/fa"; // Import icons from React Icons
-import { FcGoogle } from "react-icons/fc"; // Import Google icon from React Icons
-import { FaEyeSlash, FaEye } from "react-icons/fa"; // Import Eye icons from React Icons
+import LoginImg from "../../../../public/login1.png";
+import Image from "next/image";
+import { FaFacebook } from "react-icons/fa";
+import { FcGoogle } from "react-icons/fc";
+import { FaEyeSlash, FaEye } from "react-icons/fa";
 
 const Login = () => {
   const togglePasswordVisibility = () => {
