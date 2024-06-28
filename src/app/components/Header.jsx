@@ -36,21 +36,22 @@ const Header = () => {
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
           >
             <li>
-              <a>Item 1</a>
+              <details>
+                <summary className="font-semibold">
+                  <MdExplore className="text-[#8064A2]  fill-[#8064A2] text-xl" />{" "}
+                  Explore
+                </summary>
+                <ul className="p-2"></ul>
+              </details>
             </li>
             <li>
-              <a className="text-5xl">Parent</a>
-              <ul className="p-2">
-                <li>
-                  <a>Submenu 1</a>
-                </li>
-                <li>
-                  <a>Submenu 2</a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a>Item 3</a>
+              <details>
+                <summary className="font-semibold">
+                  <FaRegStar className="text-[#8064A2]  fill-[#8064A2] text-xl" />
+                  Hobbies
+                </summary>
+                <ul className="p-2"></ul>
+              </details>
             </li>
           </ul>
         </div>
@@ -112,7 +113,7 @@ const Header = () => {
             </button>
           </div>
         </div>
-        <a className="inline-block py-2 px-4 border border-[#8064A2]  text-[#8064A2] font-semibold rounded-lg">
+        <a className="inline-block ml-2 py-2 px-4 border border-[#8064A2]  text-[#8064A2] font-semibold rounded-lg">
           Sign In
         </a>
       </div>
