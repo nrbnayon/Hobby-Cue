@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import Login from "./pages/auth/Login";
 import Hero from "./pages/home/Hero";
+import Testimonial from "./pages/home/Testimonial";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <Header />
       <Login />
       <Hero />
+      <Testimonial />
     </main>
   );
 }
