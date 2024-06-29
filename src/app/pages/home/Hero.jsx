@@ -9,7 +9,7 @@ const Hero = () => {
     <div>
       <div className="min-h-screen bg-white flex items-center justify-center">
         <div className="max-w-7xl mx-auto p-4 sm:p-6 lg:p-8">
-          <div className="w-full space-y-6 md:gap-4 md:grid lg:grid-cols-2 lg:gap-6">
+          <div className="w-full space-y-6 md:space-y-0  md:gap-4 md:grid lg:grid-cols-2 lg:gap-6">
             <div className="bg-white hover:bg-[#0096C8] hover:text-white border border-[#CED4DA] rounded-lg shadow-sm">
               <div className="p-4">
                 <div className="flex justify-center md:justify-start items-center mb-4">

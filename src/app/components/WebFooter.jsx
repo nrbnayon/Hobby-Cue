@@ -6,14 +6,18 @@ import {
   FaLinkedinIn,
   FaYoutube,
   FaPinterestP,
+  FaSnapchatGhost,
 } from "react-icons/fa";
+import { IoIosArrowUp } from "react-icons/io";
 
 const WebFooter = () => {
   return (
     <div className="overflow-x-hidden">
       <footer className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-4 gap-4 bg-white text-base-content p-10">
         <nav className="flex flex-col">
-          <h6 className="text-base text-[#08090A] font-bold">Hobbycue</h6>
+          <h6 className="text-base text-[#08090A] font-bold flex justify-between md:justify-start items-center">
+            Hobbycue <IoIosArrowUp />{" "}
+          </h6>
           <a className="link link-hover">About Us</a>
           <a className="link link-hover">Our Services</a>
           <a className="link link-hover">Work with Us</a>
@@ -21,7 +25,9 @@ const WebFooter = () => {
           <a className="link link-hover">Contact Us</a>
         </nav>
         <nav className="flex flex-col">
-          <h6 className="text-base text-[#08090A] font-bold">How Do I</h6>
+          <h6 className="text-base text-[#08090A] font-bold flex justify-between md:justify-start items-center">
+            How Do I <IoIosArrowUp />
+          </h6>
           <a className="link link-hover">Sign Up</a>
           <a className="link link-hover">Add a Listing</a>
           <a className="link link-hover">Claim Listing</a>
@@ -30,14 +36,18 @@ const WebFooter = () => {
           <a className="link link-hover">Other Queries </a>
         </nav>
         <nav className="flex flex-col">
-          <h6 className="text-base text-[#08090A] font-bold">Quick Link</h6>
+          <h6 className="text-base text-[#08090A] font-bold flex justify-between md:justify-start items-center">
+            Quick Link <IoIosArrowUp />
+          </h6>
           <a className="link link-hover">Listings</a>
           <a className="link link-hover">Blog / Store</a>
           <a className="link link-hover">Community</a>
         </nav>
         <form>
-          <h6 className="text-base text-[#08090A] font-bold">Social Media</h6>
-          <div className="flex flex-wrap gap-3 my-3">
+          <h6 className="text-base text-[#08090A] font-bold flex justify-between md:justify-start items-center">
+            Social Media <IoIosArrowUp />
+          </h6>
+          <div className="flex flex-wrap gap-2 my-3">
             <a
               href="#"
               className="text-blue-600 btn btn-circle btn-sm bg-[#EBEDF0]"
@@ -74,13 +84,13 @@ const WebFooter = () => {
             >
               <FaPinterestP size={20} />
             </a>
-            {/* <a
+            <a
               href="#"
               className="text-yellow-5 btn btn-circle btn-sm bg-[#EBEDF0]"
             >
               <FaSnapchatGhost size={20} />
             </a>
-            <a
+            {/* <a
               href="#"
               className="text-black btn btn-circle btn-sm bg-[#EBEDF0]"
             >
