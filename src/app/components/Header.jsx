@@ -174,7 +174,7 @@ const Header = () => {
           </div>
         </div>
 
-        <a className="hidden md:inline-block ml-2 py-2 px-4 border border-[#8064A2]  text-[#8064A2] font-semibold rounded-lg">
+        <a className="hidden md:inline-block ml-2 py-2 px-4 border border-[#8064A2]  text-[#7e63a0] font-semibold rounded-lg">
           Sign In
         </a>
       </div>
