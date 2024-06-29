@@ -7,9 +7,9 @@ import MusicImg from "../../../assets/music.png";
 
 const Testimonial = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center p-6 bg-[#F7F5F9]">
-      <div className="p-6 rounded-lg w-full">
-        <div className="flex items-center mb-4 gap-4 text-lg font-semibold">
+    <div className="min-h-screen flex items-center justify-center p-6 bg-white">
+      <div className="p-6 text-center md:text-left rounded-lg w-full bg-[#F7F5F9]">
+        <div className="flex justify-center md:justify-start items-center mb-4 gap-4 text-lg font-semibold">
           <div className="w-8 h-8 rounded-full bg-[#8064A2] flex justify-center items-center">
             <FaQuoteLeft className="text-white" />
           </div>
@@ -27,7 +27,7 @@ const Testimonial = () => {
           safely explore various hobbies and activities in my city, all under
           one roof, is an excellent idea and I highly recommend it.
         </p>
-        <div className="flex items-center gap-8 mt-6">
+        <div className="flex flex-col-reverse md:flex-row items-center gap-8 mt-6">
           <div className="flex-1 flex bg-[#CCC1DA] rounded-lg items-center p-4">
             <div className="flex items-center justify-between w-full">
               <div className="w-8 h-8 bg-white rounded-full text-[#8064A2] flex justify-center items-center">

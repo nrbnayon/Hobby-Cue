@@ -59,7 +59,7 @@ const Header = () => {
           <Image src={Logo} alt="Logo" width={150} height={150} />
         </a>
       </div>
-      <div className="navbar-center hidden lg:flex">
+      <div className="navbar-center hidden lg:flex justify-between gap-7">
         <label className="relative">
           <input
             type="text"
@@ -75,12 +75,57 @@ const Header = () => {
         </label>
         <ul className="menu menu-horizontal px-1 flex">
           <li>
-            <details>
+            <details className="relative">
               <summary className="font-semibold">
                 <MdExplore className="text-[#8064A2]  fill-[#8064A2] text-xl" />{" "}
                 Explore
               </summary>
-              <ul className="p-2"></ul>
+              <ul className="w-52 z-20">
+                <li className="py-1">
+                  <a
+                    href="#"
+                    className=" text-gray-700 hover:bg-gray-100 rounded"
+                  >
+                    People - Community
+                  </a>
+                </li>
+                <div className="divider my-0"></div>
+                <li className="py-1">
+                  <a
+                    href="#"
+                    className=" text-gray-700 hover:bg-gray-100 rounded"
+                  >
+                    Places - Venues
+                  </a>
+                </li>
+                <div className="divider my-0"></div>
+                <li className="py-1">
+                  <a
+                    href="#"
+                    className=" text-gray-700 hover:bg-gray-100 rounded"
+                  >
+                    Programs - Events
+                  </a>
+                </li>
+                <div className="divider my-0"></div>
+                <li className="py-1">
+                  <a
+                    href="#"
+                    className=" text-gray-700 hover:bg-gray-100 rounded"
+                  >
+                    Products - Store
+                  </a>
+                </li>
+                <div className="divider my-0"></div>
+                <li className="py-1">
+                  <a
+                    href="#"
+                    className=" text-gray-700 hover:bg-gray-100 rounded"
+                  >
+                    Blogs
+                  </a>
+                </li>
+              </ul>
             </details>
           </li>
           <li>
@@ -89,7 +134,52 @@ const Header = () => {
                 <FaRegStar className="text-[#8064A2]  fill-[#8064A2] text-xl" />
                 Hobbies
               </summary>
-              <ul className="p-2"></ul>
+              <ul className="w-52 z-20">
+                <li className="py-1">
+                  <a
+                    href="#"
+                    className=" text-gray-700 hover:bg-gray-100 rounded"
+                  >
+                    People - Community
+                  </a>
+                </li>
+                <div className="divider my-0"></div>
+                <li className="py-1">
+                  <a
+                    href="#"
+                    className=" text-gray-700 hover:bg-gray-100 rounded"
+                  >
+                    Places - Venues
+                  </a>
+                </li>
+                <div className="divider my-0"></div>
+                <li className="py-1">
+                  <a
+                    href="#"
+                    className=" text-gray-700 hover:bg-gray-100 rounded"
+                  >
+                    Programs - Events
+                  </a>
+                </li>
+                <div className="divider my-0"></div>
+                <li className="py-1">
+                  <a
+                    href="#"
+                    className=" text-gray-700 hover:bg-gray-100 rounded"
+                  >
+                    Products - Store
+                  </a>
+                </li>
+                <div className="divider my-0"></div>
+                <li className="py-1">
+                  <a
+                    href="#"
+                    className=" text-gray-700 hover:bg-gray-100 rounded"
+                  >
+                    Blogs
+                  </a>
+                </li>
+              </ul>
             </details>
           </li>
         </ul>
