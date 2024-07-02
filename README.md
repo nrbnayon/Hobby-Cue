@@ -1,4 +1,6 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Hobbycue This is a [Next.js](https://nextjs.org/) project  with tailwind.
+
+Hobbycue connects you with like-minded individuals, local venues, and essential hobby equipment. Discover coaches, partners, places to practice, and events to deepen your interests. Join our vibrant community and let your hobby lead you to new experiences and connections.
 
 ## Getting Started
 
